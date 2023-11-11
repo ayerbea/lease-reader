@@ -18,7 +18,7 @@ OpenAI, and LangChain, where the LangChain library provides wrappers for accessi
 
 The backend will be wrapped by a Flask server and will communicate with a JavaScript React frontend.
 
-##UI Preview
+### UI Preview
 ![image](https://github.com/ayerbea/lease-reader/assets/97454732/a68da906-362d-4374-8ba1-21eaa157d8af)
 ![image](https://github.com/ayerbea/lease-reader/assets/97454732/43eb3b49-f10d-49d5-a9f0-d4a773d67d88)
 
