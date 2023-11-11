@@ -1,5 +1,5 @@
 # Lease Reader
-By Andres Ayerbe, William DeVoest, and Noah Mcguire
+By Andres Ayerbe, William DeVoest, and Noah Mcguire for EECS 497 at the University of Michigan
 ## Description
 
 We aim to offer users a method to demystify the legal jargon in their legal housing documents by offering 
