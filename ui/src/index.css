@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'StandardFont1'; /* You can name it whatever you want */
+  src: url('../public/Poppins-Light.ttf'); /* Path relative to the public directory */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StandardFont1-bold'; /* You can name it whatever you want */
+  src: url('../public/Poppins-SemiBold.ttf'); /* Path relative to the public directory */
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;  /* This prevents scrolling */
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(68,68,68,1) 100%);
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

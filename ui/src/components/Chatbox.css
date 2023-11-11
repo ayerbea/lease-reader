@@ -1,0 +1,88 @@
+.header {
+  background-color: #898989;
+  width: 100%;
+  font-family: 'StandardFont1';
+  color: white;
+  /* font-size: 20px; */
+}
+
+.header > h1 {
+  margin-left: 2vw;
+  margin-bottom: 1vh;
+}
+.chatbox-ctr {
+  display: flex;
+  width: 100%;
+}
+.chat-section {
+  width: 60%;
+}
+.pdf-window {
+  border: 1px solid rgb(42, 42, 42);
+  height: 80vh;
+  min-width: fit-content;
+  position: relative;
+  overflow-y: auto; 
+  margin: 1vw;
+  border-radius: 1px;
+}
+
+.pdf-page {
+  padding: 10px;
+}
+  
+.query-input-ctr {
+  display: flex;
+  margin: 2vh;
+  gap: 10px;
+  width: 100%;
+}
+.query-input-ctr > input{
+  padding: 1vh;
+  padding-right: 10%;
+  width: 100%;
+  font-family: 'StandardFont1';
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.query-input-ctr > button {
+  font-family: 'StandardFont1';
+  background: none;
+  border: none;
+  cursor: pointer;
+  transform: translateX(-130%);
+}
+
+.responses {
+  display: flex;
+  font-family: 'StandardFont1';
+  font-size: 14px;
+  flex-direction: column;
+  gap: 1vh
+}
+
+.response-bubble {
+  margin-left:1vw;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: white;
+}
+
+#response-bubble-query {
+  background-color: #D9D9D9;
+  margin-top: 4px;
+  border-radius: 4px;
+  padding: 4px 10px 4px 10px;
+  width: fit-content;
+}
+.response-bubble-title {
+  font-family: "StandardFont1-bold";
+}
+
+.progress-bar-wrapper {
+  margin-top: -30px;
+  padding-top: -20px;
+  transform: translateY(40%);
+}

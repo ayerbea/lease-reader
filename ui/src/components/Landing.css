@@ -1,0 +1,66 @@
+.outer-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.main-ctr {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    box-shadow: 4px 4px 20px rgb(1, 1, 1);
+    transition: box-shadow 0.5s;
+    transition: transform 0.5s ease-out;
+    /* position: absolute;  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+
+#doc-upload {
+    width: 50vw;
+    height: 50vh;
+}
+
+#chat-box {
+    width: 85vw;
+    border-radius: 0;
+    background-color: #D9D9D9;
+}
+
+.main-ctr:hover {
+    box-shadow: 6px 6px 8px rgb(44, 44, 44);
+}
+
+.drag-text {
+    width: 20vw;
+    text-align: center;
+}
+
+
+.slide-off-left {
+    transform: translateX(-153%);
+    box-shadow: none;
+}
+
+.slide-in-right {
+    left: 100vw;
+    transform: translateX(100%);
+}
+
+.slide-center {
+    transform: translateX(0%);
+}
+
+.loading-pdf {
+    font-family: "StandardFont1-bold";
+}

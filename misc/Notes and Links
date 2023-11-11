@@ -1,0 +1,5 @@
+
+Concerning 'from_text'
+https://api.python.langchain.com/en/latest/vectorstores/langchain.vectorstores.pinecone.Pinecone.html#langchain.vectorstores.pinecone.Pinecone.from_texts
+  > from_text inherently creates emebeddings before adding them to the chosen index
+  > 
